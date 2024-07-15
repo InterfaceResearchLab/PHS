@@ -1,0 +1,7 @@
+This folder contains RTL files for confirming functionality of the serial port / USB serial chip on the FPGA development board.
+
+The top level file (UART_Test.v) instantiates the rx module and maps the received bits to the output LEDs. The input comes from a serial terminal such as PuTTY on the host computer, and uses the binary of the ASCII codes to drive the LEDs. On some boards there may be fewer than 8 LEDs (e.g. Digilent Cmod S7). In this case, the least significant bits of the input are mapped to the LEDs.
+
+This was designed with the Digilent Cmod S7 in mind; some customization may be required to get this to work on other boards. You will need to update the pin mapping in the constraints (.xdc) file, and may need to update the CLKS_PER_BIT parameter in the uart_rx module. This should be set to the clock frequency / baudrate. The default baudrate is 115200. For the Cmod S7 board, the clock frequence is 12MHz, hence the CLKS_PER_BIT is set to 12000000 / 115200 = 105.
+
+To use, create a new project and implement the design for your target board (after making any necessary adjustments for boards other than the Cmod S7). Generate and map the bitstream to the board. Open a serial terminal to the appropriate port (in Windows, this can be easily found under Ports (COM & LPT) in Device Manager) and begin typing. You should see the LEDs light up according to the ASCII encoding for the keys you press.

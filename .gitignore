@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+.vscode/*
+*.xlsx
+=======
+.vscode/*
+*.xlsx
+*.pyc
+*.ova
+>>>>>>> f620caed3f99740f71bd5dda63ccd5a472fa6575

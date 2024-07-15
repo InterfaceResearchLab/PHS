@@ -1,0 +1,182 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Tue Jan 24 22:00:12 2023
+# Process ID: 22324
+# Current directory: C:/Users/Brooks/Downloads/Lab-01-APUF
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4332 C:\Users\Brooks\Downloads\Lab-01-APUF\Lab-01-APUF.xpr
+# Log file: C:/Users/Brooks/Downloads/Lab-01-APUF/vivado.log
+# Journal file: C:/Users/Brooks/Downloads/Lab-01-APUF\vivado.jou
+# Running On: BrooksRig, OS: Windows, CPU Frequency: 3400 MHz, CPU Physical cores: 32, Host memory: 34267 MB
+#-----------------------------------------------------------
+sstart_guioopen_project C:/Users/Brooks/Downloads/Lab-01-APUF/Lab-01-APUF.xprupdate_compile_order -fileset sources_1
+
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Brooks/Downloads/Lab-01-APUF/Lab-01-APUF.runs/impl_1/APUF_CTRL.bit} [get_hw_devices xc7s25_0]
+current_hw_device [get_hw_devices xc7s25_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/Brooks/Downloads/Lab-01-APUF/Lab-01-APUF.runs/impl_1/APUF_CTRL.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+close_hw_manager
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 32
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Brooks/Downloads/Lab-01-APUF/Lab-01-APUF.runs/impl_1/APUF_CTRL.bit} [get_hw_devices xc7s25_0]
+current_hw_device [get_hw_devices xc7s25_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7s25_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/Brooks/Downloads/Lab-01-APUF/Lab-01-APUF.runs/impl_1/APUF_CTRL.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 32
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/Brooks/Downloads/Lab-01-APUF/Lab-01-APUF.runs/impl_1/APUF_CTRL.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 32
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7s25_0]
+set_property PROGRAM.FILE {C:/Users/Brooks/Downloads/Lab-01-APUF/Lab-01-APUF.runs/impl_1/APUF_CTRL.bit} [get_hw_devices xc7s25_0]
+program_hw_devices [get_hw_devices xc7s25_0]
+refresh_hw_device [lindex [get_hw_devices xc7s25_0] 0]
+open_run impl_1
+startgroup
+unplace_cell  [get_cells [list  A/A0/A0/M2/D_INST_0 A/A0/A0/W2_inferred_i_1 A/A0/A0/W_INST_0 A/A0/A0/Z2_inferred_i_1 A/A0/A0/Z_INST_0 A/A0/A1/M1/D_INST_0 A/A0/A1/M2/D_INST_0 A/A0/A1/W2_inferred_i_1 A/A0/A1/W_INST_0 A/A0/A1/Z2_inferred_i_1 A/A0/A1/Z_INST_0 A/A0/A10/M1/D_INST_0 A/A0/A10/M2/D_INST_0 A/A0/A10/W2_inferred_i_1 A/A0/A10/W_INST_0 A/A0/A10/Z2_inferred_i_1 A/A0/A10/Z_INST_0 A/A0/A11/M1/D_INST_0 A/A0/A11/M2/D_INST_0 A/A0/A11/W2_inferred_i_1 A/A0/A11/W_INST_0 A/A0/A11/Z2_inferred_i_1 A/A0/A11/Z_INST_0 A/A0/A12/M1/D_INST_0 A/A0/A12/M2/D_INST_0 A/A0/A12/W2_inferred_i_1 A/A0/A12/W_INST_0 A/A0/A12/Z2_inferred_i_1 A/A0/A12/Z_INST_0 A/A0/A13/M1/D_INST_0 A/A0/A13/M2/D_INST_0 A/A0/A13/W2_inferred_i_1 A/A0/A13/W_INST_0 A/A0/A13/Z2_inferred_i_1 A/A0/A13/Z_INST_0 A/A0/A14/M1/D_INST_0 A/A0/A14/M2/D_INST_0 A/A0/A14/W2_inferred_i_1 A/A0/A14/W_INST_0 A/A0/A14/Z2_inferred_i_1 A/A0/A14/Z_INST_0 A/A0/A15/M1/D_INST_0 A/A0/A15/M2/D_INST_0 A/A0/A15/W2_inferred_i_1 A/A0/A15/W_INST_0 A/A0/A15/Z2_inferred_i_1 A/A0/A15/Z_INST_0 A/A0/A2/M1/D_INST_0 A/A0/A2/M2/D_INST_0 A/A0/A2/W2_inferred_i_1 A/A0/A2/W_INST_0 A/A0/A2/Z2_inferred_i_1 A/A0/A2/Z_INST_0 A/A0/A3/M1/D_INST_0 A/A0/A3/M2/D_INST_0 A/A0/A3/W2_inferred_i_1 A/A0/A3/W_INST_0 A/A0/A3/Z2_inferred_i_1 A/A0/A3/Z_INST_0 A/A0/A4/M1/D_INST_0 A/A0/A4/M2/D_INST_0 A/A0/A4/W2_inferred_i_1 A/A0/A4/W_INST_0 A/A0/A4/Z2_inferred_i_1 A/A0/A4/Z_INST_0 A/A0/A5/M1/D_INST_0 A/A0/A5/M2/D_INST_0 A/A0/A5/W2_inferred_i_1 A/A0/A5/W_INST_0 A/A0/A5/Z2_inferred_i_1 A/A0/A5/Z_INST_0 A/A0/A6/M1/D_INST_0 A/A0/A6/M2/D_INST_0 A/A0/A6/W2_inferred_i_1 A/A0/A6/W_INST_0 A/A0/A6/Z2_inferred_i_1 A/A0/A6/Z_INST_0 A/A0/A7/M1/D_INST_0 A/A0/A7/M2/D_INST_0 A/A0/A7/W2_inferred_i_1 A/A0/A7/W_INST_0 A/A0/A7/Z2_inferred_i_1 A/A0/A7/Z_INST_0 A/A0/A8/M1/D_INST_0 A/A0/A8/M2/D_INST_0 A/A0/A8/W2_inferred_i_1 A/A0/A8/W_INST_0 A/A0/A8/Z2_inferred_i_1 A/A0/A8/Z_INST_0 A/A0/A9/M1/D_INST_0 A/A0/A9/M2/D_INST_0 A/A0/A9/W2_inferred_i_1 A/A0/A9/W_INST_0 A/A0/A9/Z2_inferred_i_1 A/A0/A9/Z_INST_0 A/A0/DFF/Q_reg] -filter {((is_primitive==true && primitive_level!="INTERNAL")  && (loc!=""))}]
+place_cell A/A0/A0/M1/D_INST_0 SLICE_X4Y96/A6LUT
+place_cell A/A0/A0/M2/D_INST_0 SLICE_X4Y96/A5LUT
+place_cell A/A0/A0/W2_inferred_i_1 SLICE_X4Y94/C6LUT
+place_cell A/A0/A0/W_INST_0 SLICE_X3Y94/D6LUT
+place_cell A/A0/A0/Z2_inferred_i_1 SLICE_X4Y94/D6LUT
+place_cell A/A0/A0/Z_INST_0 SLICE_X3Y94/C6LUT
+place_cell A/A0/A1/M1/D_INST_0 SLICE_X3Y94/B6LUT
+place_cell A/A0/A1/M2/D_INST_0 SLICE_X3Y94/D5LUT
+place_cell A/A0/A1/W2_inferred_i_1 SLICE_X3Y94/A6LUT
+place_cell A/A0/A1/W_INST_0 SLICE_X3Y94/C5LUT
+place_cell A/A0/A1/Z2_inferred_i_1 SLICE_X3Y94/B5LUT
+place_cell A/A0/A1/Z_INST_0 SLICE_X3Y94/A5LUT
+place_cell A/A0/A10/M1/D_INST_0 SLICE_X2Y96/D6LUT
+place_cell A/A0/A10/M2/D_INST_0 SLICE_X2Y96/D5LUT
+place_cell A/A0/A10/W2_inferred_i_1 SLICE_X1Y96/A6LUT
+place_cell A/A0/A10/W_INST_0 SLICE_X1Y96/B6LUT
+place_cell A/A0/A10/Z2_inferred_i_1 SLICE_X1Y96/C6LUT
+place_cell A/A0/A10/Z_INST_0 SLICE_X1Y96/D6LUT
+place_cell A/A0/A11/M1/D_INST_0 SLICE_X1Y97/A6LUT
+place_cell A/A0/A11/M2/D_INST_0 SLICE_X1Y97/A5LUT
+place_cell A/A0/A11/W2_inferred_i_1 SLICE_X2Y97/A6LUT
+place_cell A/A0/A11/W_INST_0 SLICE_X2Y97/B6LUT
+place_cell A/A0/A11/Z2_inferred_i_1 SLICE_X1Y97/C6LUT
+place_cell A/A0/A11/Z_INST_0 SLICE_X1Y97/D6LUT
+place_cell A/A0/A12/M1/D_INST_0 SLICE_X1Y97/B6LUT
+place_cell A/A0/A12/M2/D_INST_0 SLICE_X1Y97/B5LUT
+place_cell A/A0/A12/W2_inferred_i_1 SLICE_X2Y98/A6LUT
+place_cell A/A0/A12/W_INST_0 SLICE_X2Y98/B6LUT
+place_cell A/A0/A12/Z2_inferred_i_1 SLICE_X2Y98/C6LUT
+place_cell A/A0/A12/Z_INST_0 SLICE_X1Y98/B6LUT
+place_cell A/A0/A13/M1/D_INST_0 SLICE_X1Y98/A6LUT
+place_cell A/A0/A13/M2/D_INST_0 SLICE_X1Y98/A5LUT
+place_cell A/A0/A13/W2_inferred_i_1 SLICE_X3Y95/D6LUT
+place_cell A/A0/A13/W_INST_0 SLICE_X3Y95/C6LUT
+place_cell A/A0/A13/Z2_inferred_i_1 SLICE_X1Y98/C6LUT
+place_cell A/A0/A13/Z_INST_0 SLICE_X1Y98/D6LUT
+place_cell A/A0/A14/M1/D_INST_0 SLICE_X3Y95/B6LUT
+place_cell A/A0/A14/M2/D_INST_0 SLICE_X3Y95/D5LUT
+place_cell A/A0/A14/W2_inferred_i_1 SLICE_X3Y95/A6LUT
+place_cell A/A0/A14/W_INST_0 SLICE_X3Y95/C5LUT
+place_cell A/A0/A14/Z2_inferred_i_1 SLICE_X3Y95/B5LUT
+place_cell A/A0/A14/Z_INST_0 SLICE_X3Y95/A5LUT
+place_cell A/A0/A15/M1/D_INST_0 SLICE_X4Y95/B5LUT
+place_cell A/A0/A15/M2/D_INST_0 SLICE_X4Y95/B6LUT
+place_cell A/A0/A15/W2_inferred_i_1 SLICE_X4Y95/C6LUT
+place_cell A/A0/A15/W_INST_0 SLICE_X4Y95/A6LUT
+place_cell A/A0/A15/Z2_inferred_i_1 SLICE_X4Y95/D6LUT
+place_cell A/A0/A15/Z_INST_0 SLICE_X4Y95/A5LUT
+place_cell A/A0/A2/M1/D_INST_0 SLICE_X5Y97/A6LUT
+place_cell A/A0/A2/M2/D_INST_0 SLICE_X5Y97/A5LUT
+place_cell A/A0/A2/W2_inferred_i_1 SLICE_X6Y98/A6LUT
+place_cell A/A0/A2/W_INST_0 SLICE_X6Y98/B6LUT
+place_cell A/A0/A2/Z2_inferred_i_1 SLICE_X5Y97/B6LUT
+place_cell A/A0/A2/Z_INST_0 SLICE_X5Y97/C6LUT
+place_cell A/A0/A3/M1/D_INST_0 SLICE_X5Y98/A6LUT
+place_cell A/A0/A3/M2/D_INST_0 SLICE_X5Y98/A5LUT
+place_cell A/A0/A3/W2_inferred_i_1 SLICE_X6Y98/C6LUT
+place_cell A/A0/A3/W_INST_0 SLICE_X5Y98/B6LUT
+place_cell A/A0/A3/Z2_inferred_i_1 SLICE_X5Y98/C6LUT
+place_cell A/A0/A3/Z_INST_0 SLICE_X5Y98/D6LUT
+place_cell A/A0/A4/M1/D_INST_0 SLICE_X2Y98/D6LUT
+place_cell A/A0/A4/M2/D_INST_0 SLICE_X2Y98/A5LUT
+place_cell A/A0/A4/W2_inferred_i_1 SLICE_X1Y99/A6LUT
+place_cell A/A0/A4/W_INST_0 SLICE_X2Y99/A6LUT
+place_cell A/A0/A4/Z2_inferred_i_1 SLICE_X2Y99/B6LUT
+place_cell A/A0/A4/Z_INST_0 SLICE_X2Y99/C6LUT
+place_cell A/A0/A5/M1/D_INST_0 SLICE_X2Y99/D6LUT
+place_cell A/A0/A5/M2/D_INST_0 SLICE_X2Y99/A5LUT
+place_cell A/A0/A5/W2_inferred_i_1 SLICE_X4Y99/B6LUT
+place_cell A/A0/A5/W_INST_0 SLICE_X4Y99/C6LUT
+place_cell A/A0/A5/Z2_inferred_i_1 SLICE_X4Y99/D6LUT
+place_cell A/A0/A5/Z_INST_0 SLICE_X4Y99/B5LUT
+place_cell A/A0/A6/M1/D_INST_0 SLICE_X4Y97/A6LUT
+place_cell A/A0/A6/M2/D_INST_0 SLICE_X4Y97/A5LUT
+place_cell A/A0/A6/W2_inferred_i_1 SLICE_X4Y97/C6LUT
+place_cell A/A0/A6/W_INST_0 SLICE_X4Y97/D6LUT
+place_cell A/A0/A6/Z2_inferred_i_1 SLICE_X4Y97/C5LUT
+place_cell A/A0/A6/Z_INST_0 SLICE_X4Y97/D5LUT
+place_cell A/A0/A7/M1/D_INST_0 SLICE_X4Y97/B6LUT
+place_cell A/A0/A7/M2/D_INST_0 SLICE_X4Y97/B5LUT
+place_cell A/A0/A7/W2_inferred_i_1 SLICE_X4Y96/B6LUT
+place_cell A/A0/A7/W_INST_0 SLICE_X4Y96/C6LUT
+place_cell A/A0/A7/Z2_inferred_i_1 SLICE_X4Y96/D6LUT
+place_cell A/A0/A7/Z_INST_0 SLICE_X3Y96/D6LUT
+place_cell A/A0/A8/M1/D_INST_0 SLICE_X3Y96/C6LUT
+place_cell A/A0/A8/M2/D_INST_0 SLICE_X3Y96/D5LUT
+place_cell A/A0/A8/W2_inferred_i_1 SLICE_X3Y96/B6LUT
+place_cell A/A0/A8/W_INST_0 SLICE_X3Y96/A6LUT
+place_cell A/A0/A8/Z2_inferred_i_1 SLICE_X3Y96/C5LUT
+place_cell A/A0/A8/Z_INST_0 SLICE_X3Y96/B5LUT
+place_cell A/A0/A9/M1/D_INST_0 SLICE_X2Y96/C6LUT
+place_cell A/A0/A9/M2/D_INST_0 SLICE_X2Y96/C5LUT
+place_cell A/A0/A9/W2_inferred_i_1 SLICE_X2Y96/B6LUT
+place_cell A/A0/A9/W_INST_0 SLICE_X2Y96/A6LUT
+place_cell A/A0/A9/Z2_inferred_i_1 SLICE_X2Y96/B5LUT
+place_cell A/A0/A9/Z_INST_0 SLICE_X2Y96/A5LUT
+place_cell A/A0/DFF/Q_reg SLICE_X4Y95/AFF
+endgroup
+save_constraints
+reset_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 32
+wait_on_run impl_1
+refresh_design
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+close_hw_manager
+close_design
+open_hw_manager
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag
+disconnect_hw_server localhost:3121
+connect_hw_server -allow_non_jtag

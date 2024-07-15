@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Fri Aug 25 16:15:09 2023
+# Process ID: 5928
+# Current directory: C:/Users/Samir Ahmed/OneDrive - University of South Florida/PHS/APUF_Files/APUF_Files/Lab-01-APUF/Lab-01-APUF.runs/impl_1
+# Command line: vivado.exe -log APUF_CTRL.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source APUF_CTRL.tcl -notrace
+# Log file: C:/Users/Samir Ahmed/OneDrive - University of South Florida/PHS/APUF_Files/APUF_Files/Lab-01-APUF/Lab-01-APUF.runs/impl_1/APUF_CTRL.vdi
+# Journal file: C:/Users/Samir Ahmed/OneDrive - University of South Florida/PHS/APUF_Files/APUF_Files/Lab-01-APUF/Lab-01-APUF.runs/impl_1\vivado.jou
+# Running On: DESKTOP-8STNNSB, OS: Windows, CPU Frequency: 3600 MHz, CPU Physical cores: 4, Host memory: 34216 MB
+#-----------------------------------------------------------
+source APUF_CTRL.tcl -notrace
