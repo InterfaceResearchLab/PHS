@@ -1,8 +1,10 @@
 # Practical Hardware Security
 
-![[https://github.com/InterfaceResearchLab/PHS-Internal/blob/main/PHS/Assets/desktop-secured-1536x1134]]
+![](https://github.com/InterfaceResearchLab/PHS/blob/main/Assets/desktop-secured-1536x1134.png)
+
 ## Course Description
 This course introduces practical aspects of hardware security for integrated circuits and reconfigurable hardware, with hands-on assignments introducing physical, side-channel, and system-level hardware attacks and countermeasures.
+
 ## Experiments List
 1. Physical Unclonable Functions
 2. Machine Learning Attack on PUF
